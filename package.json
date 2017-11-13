@@ -4,7 +4,7 @@
   "description": "Array.prototype.find polyfill for ES5 versions and lower.",
   "main": "src/array-find-polyfill.js",
   "scripts": {
-    "test": "mocha",
+    "test": "nyc mocha",
     "dist": "npm run clean:dist && npm run uglify:js",
     "clean:dist": "rm -rf dist && mkdir dist",
     "uglify:js": "./node_modules/uglify-js/bin/uglifyjs ./src/array-find-polyfill.js -c -m -o ./dist/array-find-polyfill.min.js"
@@ -29,6 +29,8 @@
   "homepage": "https://github.com/vovkabelov/array.find",
   "devDependencies": {
     "mocha": "^4.0.1",
+    "mocha-lcov-reporter": "^1.3.0",
+    "nyc": "^11.3.0",
     "uglify-js": "^3.1.9"
   }
 }

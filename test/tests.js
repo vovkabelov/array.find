@@ -62,4 +62,18 @@ describe("Array.prototype.find", function() {
 			undefined
 		);
 	});
+
+	it("Should throws with null as Prototype", function() {
+		var tryFindOnNull = function() {
+			Array.prototype.find.call(null);
+		};
+		assert.throws(tryFindOnNull, TypeError);
+	});
+
+	it("Should throws without callback", function() {
+		var tryFindWithoutCallback = function() {
+			fruits.find();
+		};
+		assert.throws(tryFindWithoutCallback, TypeError);
+	});
 });

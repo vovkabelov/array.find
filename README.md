@@ -1,4 +1,4 @@
-# Array.prototype.find polyfill
+# Lightweight Array.prototype.find polyfill
 [![Build Status](https://travis-ci.org/vovkabelov/array.find.svg?branch=master)](https://travis-ci.org/vovkabelov/array.find)
 [![Coverage Status](https://coveralls.io/repos/github/vovkabelov/array.find/badge.svg?branch=master&service=github)](https://coveralls.io/github/vovkabelov/array.find?branch=master&service=github)
 [![Maintainability](https://api.codeclimate.com/v1/badges/181be494b23d27cba626/maintainability)](https://codeclimate.com/github/vovkabelov/array.find)

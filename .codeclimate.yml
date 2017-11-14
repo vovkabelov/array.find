@@ -9,6 +9,13 @@ engines:
       - javascript
   eslint:
     enabled: true
+    checks:
+      no-extend-native:
+        enabled: false
+      no-extra-semi:
+        enabled: false
+      wrap-iife:
+        enabled: false
   fixme:
     enabled: true
   rubocop:

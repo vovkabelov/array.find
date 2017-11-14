@@ -19,17 +19,11 @@ engines:
   fixme:
     enabled: true
   rubocop:
-    enabled: true
+    enabled: false
 ratings:
   paths:
   - "**.css"
-  - "**.inc"
   - "**.js"
-  - "**.jsx"
-  - "**.module"
-  - "**.php"
-  - "**.py"
-  - "**.rb"
 exclude_paths:
 - dist/
 - node_modules/

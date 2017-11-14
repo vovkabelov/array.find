@@ -7,7 +7,8 @@ The find() method returns the value of the first element in the array
 that satisfies the provided testing function. Otherwise undefined is returned.
 
 ## How It Works
-**1.** [Download polyfill](https://raw.githubusercontent.com/vovkabelov/array.find/master/dist/array-find-polyfill.min.js)  
+**1.** Download [Min version](https://raw.githubusercontent.com/vovkabelov/array.find/master/dist/array-find-polyfill.min.js)
+or [Full version](https://raw.githubusercontent.com/vovkabelov/array.find/master/src/array-find-polyfill.js) (Right click and save)  
 **2.** Include polyfill on your web-page 
 ```html
 <script src="path/to/array-find-polyfill.min.js"></script>

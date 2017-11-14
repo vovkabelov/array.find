@@ -1,8 +1,4 @@
 engines:
-  rubocop:
-    enabled: true
-  golint:
-   	enabled: true
   eslint:
     enabled: true
   duplication:
@@ -12,7 +8,7 @@ engines:
           - javascript
 ratings:
   paths:
-  - src/**
+    - src/
 exclude_paths:
-- test/**/*
-- dist/**/*
+  - test/**/*
+  - dist/**/*

@@ -6,6 +6,23 @@
 The find() method returns the value of the first element in the array 
 that satisfies the provided testing function. Otherwise undefined is returned.
 
+## How It Works
+**1.** [Download polyfill](https://raw.githubusercontent.com/vovkabelov/array.find/master/dist/array-find-polyfill.min.js)  
+**2.** Include polyfill on your web-page 
+```html
+<script src="path/to/array-find-polyfill.min.js"></script>
+// or
+<script src="path/to/array-find-polyfill.js"></script>
+```
+**3.** Use method as native.
+```javascript
+["apple", "banana", "peach"].find(function(item) {
+    return item === "banana";
+});
+// "banana"
+```
+
+
 ## Performance
 Testing in Chrome 61.0.3163 / Mac OS X 10.13.0  
 **Native** 400,642 Ops/sec   

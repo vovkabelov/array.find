@@ -1,7 +1,6 @@
 var assert = require("assert");
 
 Array.prototype.find = null;
-
 require("../src/array-find-polyfill.js");
 
 
@@ -63,17 +62,27 @@ describe("Array.prototype.find", function() {
 		);
 	});
 
-	it("Should throws with null as Prototype", function() {
+	it("Should be throws when call with null ass prototype", function() {
 		var tryFindOnNull = function() {
+			assert.equal(typeof Array.prototype.find, "function");
 			Array.prototype.find.call(null);
 		};
 		assert.throws(tryFindOnNull, TypeError);
 	});
 
-	it("Should throws without callback", function() {
+	it("Should be throws when call without callback function", function() {
 		var tryFindWithoutCallback = function() {
+			assert.equal(typeof Array.prototype.find, "function");
 			fruits.find();
 		};
 		assert.throws(tryFindWithoutCallback, TypeError);
+	});
+
+	it("Context must be equal to the specified object", function() {
+		var context = {};
+
+		fruits.find(function() {
+			assert.equal(context, this);
+		}, context);
 	});
 });

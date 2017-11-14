@@ -7,8 +7,7 @@
         throw new TypeError('Cannot read property \'find\' of null');
       }
 
-      if (typeof callback !== "function")
-      {
+      if (typeof callback !== "function") {
         throw new TypeError(typeof callback + ' is not a function');
       }
 

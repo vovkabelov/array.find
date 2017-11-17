@@ -35,3 +35,6 @@ See [https://jsperf.com/array-prototype-find-polyfill](https://jsperf.com/array-
 ## Links
 [Specification](http://www.ecma-international.org/ecma-262/6.0/#sec-array.prototype.find) on "Ecma International"  
 [MDN examples](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
+
+## Copyright and license
+Code and documentation copyright 2017 Vladimir Belov. Code released under the [MIT license](https://github.com/vovkabelov/array.find/blob/master/LICENSE).

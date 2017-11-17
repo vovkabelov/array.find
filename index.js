@@ -1,2 +1,5 @@
 require("./src/array-find-polyfill");
-module.exports = Array.prototype.find;
+
+module.exports = function(array, predicate, thisArgs) {
+    return array.find(predicate, thisArgs);
+};

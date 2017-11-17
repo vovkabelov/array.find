@@ -85,4 +85,14 @@ describe("Array.prototype.find", function() {
             assert.equal(context, this);
         }, context);
     });
+
+    it("Should be works as module", function() {
+       var find = require("../index");
+       assert.equal(
+           find(fruits, function(fruit) {
+               return fruit === "mango";
+           }),
+           "mango"
+       );
+    });
 });

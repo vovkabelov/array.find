@@ -1,6 +1,6 @@
 {
   "name": "array.find",
-  "version": "v1.0.2",
+  "version": "v1.0.3",
   "description": "Array.prototype.find polyfill for ES5 versions and lower.",
   "main": "src/array-find-polyfill.js",
   "scripts": {

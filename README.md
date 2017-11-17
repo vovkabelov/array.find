@@ -23,29 +23,6 @@ that satisfies the provided testing function. Otherwise undefined is returned.
 // "banana"
 ```
 
-## Usage with node.js
-**1.** Install package with NPM or Yarn
-* with npm `npm install --save array.find`
-* with yarn `yarn add array.find`
-
-**2.** Use 
-```javascript
-var find = require("array.find");
-
-find(["apple", "banana", "peach"], function(item) {
-    return item === "banana";
-});
-// "banana"
-```
-or 
-```javascript
-require("array.find");
-
-["apple", "banana", "peach"].find(function(item) {
-    return item === "banana";
-});
-```
-
 ## Performance
 Testing in Chrome 61.0.3163 / Mac OS X 10.13.0  
 **Native** 400,642 Ops/sec   

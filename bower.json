@@ -17,6 +17,7 @@
   "homepage": "https://github.com/vovkabelov/array.find",
   "ignore": [
     ".*",
+    "**/.*",
     "node_modules",
     "bower_components",
     "test",

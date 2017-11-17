@@ -1,0 +1,25 @@
+{
+  "name": "array.prototype.find",
+  "description": "Array.prototype.find polyfill for ES5 versions and lower.",
+  "main": "src/array-find-polyfill.js",
+  "authors": [
+    "Vladimir Belov <i@vovkabelov.ru>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "array",
+    "find",
+    "polyfill",
+    "js",
+    "ES6",
+    "ES5"
+  ],
+  "homepage": "https://github.com/vovkabelov/array.find",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

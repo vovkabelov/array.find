@@ -1,8 +1,8 @@
 {
   "name": "array.find",
-  "version": "v1.0.6",
+  "version": "v1.0.7",
   "description": "Array.prototype.find polyfill for ES5 versions and lower.",
-  "main": "src/array-find-polyfill.js",
+  "main": "index.js",
   "scripts": {
     "test": "mocha",
     "dist": "npm run clean:dist && npm run uglify:js",
